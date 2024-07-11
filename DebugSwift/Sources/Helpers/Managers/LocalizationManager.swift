@@ -15,7 +15,7 @@ class LocalizationManager {
     private init() {}
 
     var currentLanguage: String {
-        if Locale.current.languageCode?.contains("pt") == true {
+        if Locale.current.languageCode?.contains("pt_BR") == true {
             return supportedLanguages[0]
         } else {
             return supportedLanguages[1]
