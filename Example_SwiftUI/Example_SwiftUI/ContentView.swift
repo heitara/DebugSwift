@@ -27,6 +27,12 @@ struct ContentView: View {
                 ) {
                     Text("Alamofire Upload")
                 }
+                
+                NavigationLink(
+                    destination: MultipartUploadView()
+                ) {
+                    Text("Alamofire Multipart Upload")
+                }
             }
             .navigationBarTitle("Example")
         }

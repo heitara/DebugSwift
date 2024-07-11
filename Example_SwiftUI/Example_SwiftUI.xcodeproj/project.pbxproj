@@ -15,6 +15,8 @@
 		2EC7DFED2C12AFAB005E58DF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2EC7DFEC2C12AFAB005E58DF /* Alamofire */; };
 		9E13A4A42BFE73A300F9B364 /* example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E13A4A32BFE73A300F9B364 /* example.pdf */; };
 		9E311A092BC9EB27009CDC3C /* FileUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E311A082BC9EB27009CDC3C /* FileUploadView.swift */; };
+		9E5E63D92C40911900D6523F /* MultipartUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E63D82C40911900D6523F /* MultipartUploadView.swift */; };
+		9E5E63DB2C4091A100D6523F /* _6cd8cadc-4a13-4510-9b16-261b6c7d2117.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E5E63DA2C4091A100D6523F /* _6cd8cadc-4a13-4510-9b16-261b6c7d2117.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		2EC7DFEE2C12B72A005E58DF /* Example-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Example-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9E13A4A32BFE73A300F9B364 /* example.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = example.pdf; sourceTree = "<group>"; };
 		9E311A082BC9EB27009CDC3C /* FileUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadView.swift; sourceTree = "<group>"; };
+		9E5E63D82C40911900D6523F /* MultipartUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartUploadView.swift; sourceTree = "<group>"; };
+		9E5E63DA2C4091A100D6523F /* _6cd8cadc-4a13-4510-9b16-261b6c7d2117.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "_6cd8cadc-4a13-4510-9b16-261b6c7d2117.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +69,13 @@
 			children = (
 				2EC7DFEE2C12B72A005E58DF /* Example-SwiftUI-Info.plist */,
 				9E13A4A32BFE73A300F9B364 /* example.pdf */,
+				9E5E63DA2C4091A100D6523F /* _6cd8cadc-4a13-4510-9b16-261b6c7d2117.jpg */,
 				2E60BA122B3383070084C2D9 /* Example_SwiftUI.entitlements */,
 				2EA3B65C2B2E7F71001B59FE /* Example_SwiftUIApp.swift */,
 				2EA3B65E2B2E7F71001B59FE /* ContentView.swift */,
 				2EA3B6602B2E7F74001B59FE /* Assets.xcassets */,
 				2EA3B6622B2E7F74001B59FE /* Preview Content */,
+				9E5E63D82C40911900D6523F /* MultipartUploadView.swift */,
 				9E311A082BC9EB27009CDC3C /* FileUploadView.swift */,
 			);
 			path = Example_SwiftUI;
@@ -152,6 +158,7 @@
 			files = (
 				2EA3B6642B2E7F74001B59FE /* Preview Assets.xcassets in Resources */,
 				9E13A4A42BFE73A300F9B364 /* example.pdf in Resources */,
+				9E5E63DB2C4091A100D6523F /* _6cd8cadc-4a13-4510-9b16-261b6c7d2117.jpg in Resources */,
 				2EA3B6612B2E7F74001B59FE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,6 +173,7 @@
 				9E311A092BC9EB27009CDC3C /* FileUploadView.swift in Sources */,
 				2EA3B65F2B2E7F71001B59FE /* ContentView.swift in Sources */,
 				2EA3B65D2B2E7F71001B59FE /* Example_SwiftUIApp.swift in Sources */,
+				9E5E63D92C40911900D6523F /* MultipartUploadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
